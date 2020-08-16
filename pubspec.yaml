@@ -1,0 +1,119 @@
+name: Dimik
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # pimp_my_button:
+  #   git:
+  #     url: git://github.com/Norbert515/pimp_my_button.git
+  sqflite: ^1.1.0
+  flutter_circular_chart: ^0.1.0
+  audioplayers: ^0.13.0
+  path_provider: ^1.1.0
+  page_indicator: ^0.1.3
+  toast: ^0.1.4
+  flutter_tts: ^0.5.2
+
+  animator: ^0.1.4
+  http: ^0.12.0+2
+  cupertino_icons: ^0.1.2
+  animated_background: ^0.0.2
+  url_launcher:
+  shared_preferences:
+  share: ^0.5.2
+  dio: any
+  percent_indicator: "^1.0.13"
+  flutter_walkthrough:
+  scoped_model: ^1.0.1
+  connectivity: ^0.4.2
+  flip_card: ^0.4.1
+  countdown: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/audios/success.mp3
+    - assets/audios/error.mp3
+    - assets/img/profile.jpg
+    - assets/img/icons/fav.png
+    - assets/img/icons/profile.png
+    - assets/img/icons/tasks.png
+    - assets/img/icons/home.png
+    - assets/img/icons/quiz.png
+    - assets/img/spiderman.jpeg
+    - assets/img/ac.jpg
+    - assets/img/callofduty.jpg
+    - assets/img/fortnite.jpg
+    - assets/img/options.png
+    - assets/img/uploadimage.png
+    - assets/img/login.png
+    - assets/img/listen.png
+    - assets/img/ballon.png
+    - assets/img/crown.png
+    - assets/img/0.jpg
+    - assets/img/1.jpg
+    - assets/img/2.jpg
+    - assets/img/3.jpg
+    - assets/img/4.jpg
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/homeUIFonts/Avenir.ttc
+  #      - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+analyzer:
+  strong-mode: true
+  language:
+    enableSuperMixins: true
+  errors:
+    mixin_inherits_from_not_object: ignore
