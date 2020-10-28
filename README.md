@@ -6,7 +6,7 @@ In this app, you can practice speaking, reading, listening and writing. You can 
 User scores are saved in database, and a combined leaderboard of all users can be seen from the app. This increases competitiveness amongst the users
 
 ## Features
-		1.  Fill in the blanks with correct letter
+		1. Fill in the blanks with correct letter
 		2. Fill in the blanks with correct word
 		3. Sentence Matching(Bangla and English)
 		4. Sentence Matching(English sentence)
